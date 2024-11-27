@@ -1,1 +1,1 @@
-# ECS235A-CIS---IDS-for-SCADA-Security
+# ECS235A-CIS:IDS-for-SCADA-Security
