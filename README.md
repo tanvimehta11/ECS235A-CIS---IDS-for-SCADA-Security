@@ -53,7 +53,7 @@ The work focuses on the **Gas Pipeline Dataset**, utilizing state-of-the-art tec
 ## Results
 - **Baseline Models**: Achieved ~85% accuracy with Random Forest and Decision Trees.
 - **Advanced Models**: Stacked Neural Networks improved detection rates, achieving up to 93% accuracy.
-- **ICS-IDS**: Combining multiple techniques like feature selection and deep learning models yielded the most robust results. GRU achieved 85.4%, LSTM achieved 84.9%, Random Forest achieving approximately 84%.
+- **ICS-IDS**: Combining multiple techniques like feature selection and deep learning models yielded the most robust results. GRU achieved 88.6%, LSTM achieved 87.6%, Random Forest achieved approximately 97.6%, and KNN was 97%.
 
 ---
 
