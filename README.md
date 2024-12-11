@@ -27,10 +27,10 @@ The work focuses on the **Gas Pipeline Dataset**, utilizing state-of-the-art tec
    - Normalizing data for consistency.
    - Splitting the dataset into training and testing sets.
 2. **Model Development**:
-   - **Baseline Models**: Random Forest and Decision Trees for initial analysis.
-   - **Advanced Models**: Stacked neural networks using Convolutional Neural Networks (CNNs) with ReLU activation and batch normalization.
+   - **Baseline Models**: Random Forest and Decision Trees KNN, Random Forest, Naive Bayes, MLP for initial analysis. 
+   - **Advanced Models**: Stacked neural networks using Convolutional Neural Networks (CNNs) with ReLU activation and batch normalization. LSTM and GRU networks for sequence modeling.
 3. **Evaluation**:
-   - **Metrics**: Accuracy, precision, recall, F1 score, and confusion matrices.
+   - **Metrics**: Accuracy, precision, recall, F1 score, ROC-AUC and confusion matrices.
    - Comparative analysis of traditional and deep learning models.
 
 ---
@@ -44,16 +44,16 @@ The work focuses on the **Gas Pipeline Dataset**, utilizing state-of-the-art tec
    - Implements a stacked neural network with advanced configurations like batch normalization.
    - Evaluates performance on the test dataset and provides insights on classification accuracy.
 
-### 3. `Intrusion_Analysis.ipynb`
-   - Applies statistical tests and evaluates correlations between features.
-   - Benchmarks performance of various models on the dataset.
+### 3. `ICS-IDS.ipynb`
+   - The code cleans, standardizes, and balances the dataset using ENN for robust model training.
+   - Trains and evaluates ML (KNN, Random Forest) and DL (MLP, LSTM, GRU) models with performance visualizations.
 
 ---
 
 ## Results
 - **Baseline Models**: Achieved ~85% accuracy with Random Forest and Decision Trees.
 - **Advanced Models**: Stacked Neural Networks improved detection rates, achieving up to 93% accuracy.
-- **Insights**: Combining multiple techniques like feature selection and deep learning models yielded the most robust results.
+- **ICS-IDS**: Combining multiple techniques like feature selection and deep learning models yielded the most robust results. GRU achieved 85.4%, LSTM achieved 84.9%, Random Forest achieving approximately 84%.
 
 ---
 
@@ -73,8 +73,8 @@ The work focuses on the **Gas Pipeline Dataset**, utilizing state-of-the-art tec
 ---
 
 ## References
-1. "Intrusion Detection and Identification System Design and Performance Evaluation for Industrial SCADA Networks."
-2. "A Stacked Deep Learning Approach to Cyber-Attacks Detection in Industrial Systems."
-3. "ICS-IDS: Application of Big Data Analysis in AI-Based Intrusion Detection Systems for SCADA Networks."
+1. [Intrusion Detection and Identification System Design and Performance Evaluation for Industrial SCADA Networks]([https://example.com/paper1](https://arxiv.org/abs/2012.09707))  
+2. [A Stacked Deep Learning Approach to Cyber-Attacks Detection in Industrial Systems]([https://example.com/paper2](https://link.springer.com/article/10.1007/s10586-021-03426-w))  
+3. [ICS-IDS: Application of Big Data Analysis in AI-Based Intrusion Detection Systems for SCADA Networks]([https://example.com/paper3](https://link.springer.com/article/10.1007/s11227-023-05764-5#Sec7))  
 
 For further details, please refer to the project proposal and accompanying documentation.
