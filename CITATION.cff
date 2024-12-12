@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  ECS235A-CIS-Cracking-the-Code-Advanced-Intrusion-Detection-Frameworks-for-SCADA-Security
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Tanvi
+    family-names: Mehta
+    email: tanvihm11@gmail.com
+  - given-names: Shivani
+    family-names: Suryawanshi
+  - given-names: Savali
+    family-names: Deshmukh
+repository-code: >-
+  https://github.com/tanvimehta11/ECS235A-CIS-Cracking-the-Code-Advanced-Intrusion-Detection-Frameworks-for-SCADA-Security
